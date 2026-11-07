@@ -9,7 +9,8 @@ pipeline {
   stages {
     stage('AWS CodeBuild 检查') {
       steps {
-        // 插入 Pipeline Syntax 生成的 awsCodeBuild(...) 步骤
+          echo "构建分支：${env.BRANCH_NAME}"
+          echo 'Jenkins 已成功读取并执行 Jenkinsfile'
       }
     }
   }
