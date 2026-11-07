@@ -1,4 +1,3 @@
-```bash
 #!/usr/bin/env bash
 set -u
 
@@ -18,4 +17,3 @@ fi
 
 printf '{"status":"PASS","message":"basic checks passed"}\n' > reports/review-summary.json
 echo "Basic checks passed"
-```
